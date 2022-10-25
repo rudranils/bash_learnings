@@ -1,0 +1,11 @@
+method1:
+#! /bin/bash -x
+
+method2:
+#! /bin/bash
+set -x
+
+---lines of code---
+set +x #to stop debugging
+
+bash -x signal2.sh
